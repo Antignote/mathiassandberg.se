@@ -5,6 +5,7 @@ module.exports = {
     author: `hi@mathiassandberg.se`,
     siteUrl: `https://mathiassandberg.se/`,
   },
+  pathPrefix: "/mathiassandberg.se",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
