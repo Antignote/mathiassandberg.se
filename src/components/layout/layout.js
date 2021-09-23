@@ -39,6 +39,7 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
+          <a href="mailto:hi@mathiassandberg.se">hi@mathiassandberg.se</a>
         </footer>
       </div>
     </>
