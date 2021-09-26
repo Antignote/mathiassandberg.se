@@ -79,6 +79,7 @@ const IndexPage = () => (
             <li>Java EE</li>
             <li>Servlets, JSF, Apache Strust</li>
             <li>JavaScript</li>
+            <li>File streams</li>
             <li>XML Parseing</li>
           </ul>
         </li>
@@ -88,7 +89,20 @@ const IndexPage = () => (
     <section>
       <h2>Education</h2>
       <ul>
-        <li><strong>Innovativ programmering</strong>, Linköping Technical University (LiTH) 2009 - 2012</li>
+        <li>
+          <strong>Innovativ programmering</strong>, Linköping Technical University (LiTH) 2009 - 2012
+          <ul>
+            <li>Enterprise development</li>
+            <li>Game design &amp; development</li>
+            <li>Web development &ndash; client &amp; server</li>
+            <li>Computer Networks &amp; Distributed Systems</li>
+            <li>Datastructures &amp; algorithms</li>
+            <li>Construction of a programming language - <em>final state machines, abstract syntax tree, shunting yard algorithm,  etc.</em></li>
+          </ul>
+        </li>
+        <li>
+          <strong>Technical program</strong>, Christopher Polhemgymnasiet 2006 - 2008
+        </li>
       </ul>
     </section>
 
