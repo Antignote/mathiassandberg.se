@@ -1,5 +1,6 @@
 import * as React from "react"
 
+import Heart from "../components/heart"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -20,11 +21,11 @@ const IndexPage = () => (
     <section>
       <h2>Who am I?</h2>
       <p>
-        My name is <strong>Mathias Sandberg</strong>. I'm currently work as a Software Architect at the state-owned company Svenska Spel in Sweden.
+        My name is <strong>Mathias Sandberg</strong>. I'm currently working as a Software Architect at the state-owned company Svenska Spel in Sweden.
       </p>
 
       <p>
-        With <strong>{yearDiff(startWorkingDate, now)} years</strong> of working experience in software development I tend to live by the rules of Murphys law &ndash; <em>&quot;anyhing that can go wrong will eventually go wrong&quot;.</em> That means that I leave nothing to chance; defensive architectual application design. I put mutch effort to achive applications with great performance and that are easily tested with either unit tests or regression tests.
+        With <strong>{yearDiff(startWorkingDate, now)} years</strong> of working experience in software development I tend to live by the rules of Murphys law &ndash; <em>&quot;anyhing that can go wrong will eventually go wrong&quot;.</em> That means that I leave nothing to chance; defensive application design and architecture is the key features. I put much effort to achieve applications with great performance and that are easily tested with either unit tests or regression tests.
       </p>
 
       <p>
@@ -43,10 +44,10 @@ const IndexPage = () => (
         My passion for programming started at a young age where I tend to debug, inspect and improve existing web applications. My newly gained interest evolved to into taking a couple of programming courses in high school, which eventually lead me through a technical gymnasial program, followed by a couple of years with studies at university within a program with a very wide spectrum within software development. After the university it took me to where I'm today; loving the development process from an idea to a high qualitative application or evolving existing applications.
       </p>
 
-      <h3>🖤 Love</h3>
+      <h3><Heart /> Love</h3>
       <ul>
-        <li>Performant web aplications</li>
-        <li>Great atchitecture &amp; testable code</li>
+        <li>Performant web applications</li>
+        <li>Great architecture &amp; testable code</li>
       </ul>
       
       <h3>💩 Dislikes</h3>
@@ -56,26 +57,27 @@ const IndexPage = () => (
     </section>
 
     <section>
-      <h2>Work life experience</h2>
+      <h2>💻 Work life experience</h2>
       <ul>
         <li><strong>Svenska Spel, Software Architect dec 2020</strong>
           <ul>
-            <li>Leading frontend development and responsible for life cycle managment for Svenska Spels pool games like; Stryktipset, Europatipset, Challenge etc.</li>
+            <li>Leading frontend development and responsible for its life cycle managment for Svenska Spels pool games like; Stryktipset, Europatipset, Challenge etc.</li>
             <li>Evaluating, identifying, designing and developing software solutions</li>
             <li>Functional and technical documentation</li>
             <li>Work close to product owners (PO)</li>
             <li>Mentoring and introducing new developers to the tech stack</li>
-            <li><em>...Same chores as a frontend developer accorting to below</em></li>
+            <li><em>...Same chores as a frontend developer according to below</em></li>
           </ul>
         </li>
 
         <li><strong>Svenska Spel, Frontend developer aug 2016 - dec 2020</strong>
           <ul>
-            <li>React eco system (Redux, RTK, React Router, RTL etc.)</li>
+            <li>React ecosystem (Redux, RTK, React Router, RTL etc.)</li>
             <li>Nodejs</li>
             <li>Express.js</li>
-            <li>SEO, Google core web vitals</li>
+            <li>SEO, Google core Web Vitals</li>
             <li>REST</li>
+            <li>Docker</li>
           </ul>
         </li>
 
@@ -85,17 +87,17 @@ const IndexPage = () => (
             <li>Servlets, JSF, Apache Strust</li>
             <li>JavaScript</li>
             <li>File streams</li>
-            <li>XML Parseing</li>
+            <li>XML Parsing</li>
           </ul>
         </li>
       </ul>
     </section>
 
     <section>
-      <h2>Education</h2>
+      <h2>🎓 Education</h2>
       <ul>
         <li>
-          <strong>Innovativ programmering</strong>, Linköping Technical University (LiTH) 2009 - 2012
+          <strong>Bachelor's Programme in Programming</strong>, Linköping Technical University (LiTH) 2009 - 2012
           <ul>
             <li>Enterprise development</li>
             <li>Game design &amp; development</li>

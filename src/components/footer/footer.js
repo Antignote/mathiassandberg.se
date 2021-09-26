@@ -40,9 +40,9 @@ const Footer = () => {
         <li>
           <a href={`mailto:${author}`}>{author}</a>
         </li>
-        <li>
+        {/* <li>
           <a href={`tel:${contact.phone}`}>{formatPhonenumber(contact.phone)}</a>
-        </li>
+        </li> */}
         <li>
           <a href={contact.linkedIn}>Linked In</a>
         </li>
