@@ -4,6 +4,11 @@ module.exports = {
     description: `Mathias Sandberg resume. Software Architect, senior frontend developer at Svenska Spel.`,
     author: `hi@mathiassandberg.se`,
     siteUrl: `https://mathiassandberg.se/`,
+    contact: {
+      name: 'Mathias Sandberg',
+      phone: `0703628184`,
+      linkedIn: `https://www.linkedin.com/in/mathias-sandberg-10a9aa71/`,
+    },
   },
   pathPrefix: "/mathiassandberg.se",
   plugins: [

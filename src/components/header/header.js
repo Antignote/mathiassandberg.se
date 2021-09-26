@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 import "./header.css"
 
 const Header = ({ siteTitle }) => (
-  <header class="header">
+  <header className="header">
     <div
       style={{
         margin: `0 auto`,

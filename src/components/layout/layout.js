@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "../header"
+import Footer from "../footer"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -21,7 +22,7 @@ const Layout = ({ children }) => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <>
@@ -34,16 +35,10 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          <a href="mailto:hi@mathiassandberg.se">hi@mathiassandberg.se</a>
-        </footer>
+        <Footer />
       </div>
     </>
-  )
+  );
 }
 
 Layout.propTypes = {
