@@ -24,19 +24,23 @@ const IndexPage = () => (
       </p>
 
       <p>
-        With <strong>{yearDiff(startWorkingDate, now)} years</strong> of experience in software development and I tend to live by the rules of Murphys law &ndash; <em>&quot;anyhing that can go wrong will eventually go wrong&quot;.</em> That means that I leave nothing to chance; defensive architectual application design. I put much effort to achive applications with great performance that are easily tested with either unit tests or regression tests.
+        With <strong>{yearDiff(startWorkingDate, now)} years</strong> of working experience in software development I tend to live by the rules of Murphys law &ndash; <em>&quot;anyhing that can go wrong will eventually go wrong&quot;.</em> That means that I leave nothing to chance; defensive architectual application design. I put mutch effort to achive applications with great performance and that are easily tested with either unit tests or regression tests.
       </p>
 
       <p>
-        I always care to help my colleagues &ndash; <em>sharing is caring.</em> There is always something new to learn and I beleive that discussing possible solutions and excanging experience is a exceptional way to both build a better application and to grow as a developer.
+        Quality and user experience is for me, one of the most important things to achieve. Engaging users with the product via making them fast, easy and fun to use.
       </p>
 
       <p>
-        My passion for web development started at a young age where I tend to debug, inspect and improove existing web applications.
+        One of my best assets is that I'm always reading up on and learning the latest technology, or programming paradigms. I'm effective and can lead a group or be a follower when needed.
       </p>
 
       <p>
-        On my spare time I like to stay up to date and read up on new technology, or programming paradigms - because one thing that's important to me is great architectual code that is also testable with unittests
+        I always care to help my colleagues &ndash; <em>sharing is caring.</em> There is always something new to learn and I believe that discussing possible solutions and exchanging experience is a exceptional way to both build a better application and to grow as a developer.
+      </p>
+
+      <p>
+        My passion for programming started at a young age where I tend to debug, inspect and improve existing web applications. My newly gained interest evolved to into taking a couple of programming courses in high school, which eventually lead me through a technical gymnasial program, followed by a couple of years with studies at university within a program with a very wide spectrum within software development. After the university it took me to where I'm today; loving the development process from an idea to a high qualitative application or evolving existing applications.
       </p>
 
       <h3>🖤 Love</h3>
@@ -56,8 +60,9 @@ const IndexPage = () => (
       <ul>
         <li><strong>Svenska Spel, Software Architect dec 2020</strong>
           <ul>
-            <li>Leading frontend development and responsible of LCM for Svenska Spels pool games like; Stryktipset, Europatipset, Challenge etc.</li>
-            <li>Evaluating, identifying and developing software solutions</li>
+            <li>Leading frontend development and responsible for life cycle managment for Svenska Spels pool games like; Stryktipset, Europatipset, Challenge etc.</li>
+            <li>Evaluating, identifying, designing and developing software solutions</li>
+            <li>Functional and technical documentation</li>
             <li>Work close to product owners (PO)</li>
             <li>Mentoring and introducing new developers to the tech stack</li>
             <li><em>...Same chores as a frontend developer accorting to below</em></li>
